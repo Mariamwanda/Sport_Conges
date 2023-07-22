@@ -1,0 +1,230 @@
+
+
+.singup {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 1.5em;
+  }
+
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    width: 30vw;
+    flex-direction: column;
+    gap: 35px;
+    border-radius: 15px;
+    background: #ecc19c;
+    box-shadow: 16px 16px 32px #c8c8c8,
+    -16px -16px 32px #fefefe;
+    border-radius: 8px;
+    margin: 20%;
+  }
+  
+  .inputBox,
+  .inputBox1 {
+    position: relative;
+    width: 270px;
+  }
+  
+  .inputBox input
+{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #000;
+    font-size: 1em;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    transition: 0.1s;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .inputBox span,
+  .inputBox1 span {
+    margin-top: 5px;
+    position: absolute;
+    left: 0;
+    transform: translateY(-4px);
+    margin-left: 10px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 12px;
+    color: #322e2f;
+    transition: 0.5s;
+    letter-spacing: 3px;
+    border-radius: 8px;
+  }
+  
+  .inputBox input:valid~span,
+  .inputBox input:focus~span {
+    transform: translateX(113px) translateY(-15px);
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: #322e2f;
+    letter-spacing: 0.2em;
+    color: #fff;
+    border: 2px;
+  }
+  
+  .inputBox1 input:valid~span,
+  .inputBox1 input:focus~span {
+    transform: translateX(156px) translateY(-15px);
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: #322e2f;
+    letter-spacing: 0.2em;
+    color: #fff;
+    border: 2px;
+  }
+
+.form p{
+  font-size: 20px;
+}
+
+.form a{
+  color: white;
+}
+  
+  .enter {
+    height: 45px;
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #322e2f;
+    transition: 0.5s;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 3em;
+  }
+
+
+  /*expedition*/
+header{
+    background: none;
+    padding-top: 50px;
+    margin-bottom: 5px;
+}
+
+.img-placed img{
+    width: 100%;
+    height: 30vh;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.expedition{
+  width: 600vw;
+  margin: auto;
+  padding: auto;
+  height: 96vh;
+  margin-top: 20px;
+  display: block;
+  border-radius: 8px;
+  background:  #ecc19c;
+  box-shadow: rgb(50, 50, 93,0.25);
+}
+
+.expedition h1{
+  text-align: center;
+  margin: 10px;
+  color: #19376D;
+}
+
+
+#select-field{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+
+#toCurrency{
+  font-size: 25px;
+}
+
+#fromCurrencyName{
+    margin-top: 0;
+    font-size: 16px;
+    color: aqua;
+    font-weight: 600;
+    display: inline-block;
+    margin: 15px 40px 7.5px;
+}
+
+#fromCurrency{
+    width: 40%;
+}
+
+select{
+    margin: auto;
+    display: block;
+    font-size: 1rem;
+    padding: 12px;
+    background: none;
+    border-radius: 6px;
+    color: #19376D;
+    border: 1px solid ;
+}
+
+
+#form3Example1{
+  height: 4vh;
+}
+
+
+#form3Example2{
+  margin-top: 30px;
+  height: 4vh;
+}
+
+.primary-btn{
+    display: block;
+    align-items: center;
+    min-width: 0px;
+    width: 20%;
+    cursor: pointer;
+    margin: auto;
+    outline-offset: 4px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    transition-property: background-color,border-color;
+    transition-duration: 0.3s;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    color: #19376D;
+    background-color: white;
+    border: 2px solid;
+}
+
+label{
+    font-size: 20px;
+    color: #19376D;
+    margin-left: 6vw;
+}
+
+
+.form-select{
+  width: 87%;
+  margin: auto;
+  display: block;
+  font-size: 2rem;
+  background: none;
+  line-height: 1.5;
+  padding: 5px;
+  border-radius: 6px;
+  color: #19376D;
+  border: 1px solid #19376D;
+  margin-top: 20px;
+}
