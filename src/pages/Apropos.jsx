@@ -1,12 +1,13 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
+import React from "react";
 
 function Apropos(){
     return(
         <>
          <Navbar />
             <section id="apropos" class="jumbotron text-center">
-                <h1 className="display-3">Maritime_<span>Transport</span></h1>
+                <h1 className="display-3">Sport</h1>
                 <p>Vous accompagne partout en Sécurité Avec Confiance.</p>
             </section>
           <section id="gallery">
@@ -15,7 +16,7 @@ function Apropos(){
                 <div class="row">
                     <div class="col-lg-4 mb-4">
                         <div class="card">
-                            <img src="./../../src/image/img4.webp" alt="" class="card-img"/>
+                            <img src="./../../src/images/balle.webp" alt="" class="card-img"/>
                             <div class="card-body">
                                 <h2 class="card-title">Confiance</h2>
                                 <p class="card-text">La Confiance est l'une des rares choses qui n'ait pas de valeur vénale,elle se mérite,elle se donne,elle se reprend trop souvent.</p>
@@ -28,7 +29,7 @@ function Apropos(){
                    </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img src="./../../src/image/img5.webp" alt="" class="card-img"/>
+                        <img src="./../../src/images/img1.jpeg" alt="" class="card-img"/>
                         <div class="card-body">
                             <h2 class="card-title">Sécurité</h2>
                             <p class="card-text">La Confiance est l'une des rares choses qui n'ait pas de valeur vénale,elle se mérite,elle se donne,elle se reprend trop souvent</p>
@@ -41,7 +42,7 @@ function Apropos(){
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img src="./../../src/image/im8.jpeg" alt="" class="card-img"/>
+                        <img src="./../../src/images/img1.jpeg" alt="" class="card-img"/>
                         <div class="card-body">
                             <h2 class="card-title">Garantie</h2>
                             <p class="card-text">La Confiance est l'une des rares choses qui n'ait pas de valeur vénale,elle se mérite,elle se donne,elle se reprend trop souvent.</p>
@@ -54,7 +55,7 @@ function Apropos(){
                 </div>
                 <div class="col-lg-4 mb-4">
                         <div class="card">
-                            <img src="./../../src/image/img4.webp" alt="" class="card-img"/>
+                            <img src="./../../src/images/balle.webp" alt="" class="card-img"/>
                             <div class="card-body">
                                 <h2 class="card-title">Confiance</h2>
                                 <p class="card-text">La Confiance est l'une des rares choses qui n'ait pas de valeur vénale,elle se mérite,elle se donne,elle se reprend trop souvent.</p>
@@ -67,7 +68,7 @@ function Apropos(){
                    </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img src="./../../src/image/img5.webp" alt="" class="card-img"/>
+                        <img src="./../../src/images/jeune.jpeg" alt="" class="card-img"/>
                         <div class="card-body">
                             <h2 class="card-title">Sécurité</h2>
                             <p class="card-text">La Confiance est l'une des rares choses qui n'ait pas de valeur vénale,elle se mérite,elle se donne,elle se reprend trop souvent</p>
@@ -80,7 +81,7 @@ function Apropos(){
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img src="./../../src/image/im8.jpeg" alt="" class="card-img"/>
+                        <img src="./../../src/images/balle.webp" alt="" class="card-img"/>
                         <div class="card-body">
                             <h2 class="card-title">Garantie</h2>
                             <p class="card-text">La Confiance est l'une des rares choses qui n'ait pas de valeur vénale,elle se mérite,elle se donne,elle se reprend trop souvent.</p>

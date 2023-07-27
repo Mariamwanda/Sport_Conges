@@ -1,7 +1,6 @@
-
+import React from "react";
 
 function Footer(){
-
     return (
         <>    <div class="footer-dark">
         <footer>
@@ -39,7 +38,7 @@ function Footer(){
                 </div>
                 
                   
-                <p class="copyright">Maritime_Transport © 2023</p>
+                <p class="copyright">Sport © 2023</p>
             </div>
         </footer>
     </div>

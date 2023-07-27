@@ -1,11 +1,12 @@
 import Navbar from "./../components/Navbar"
 import Footer from "./../components/footer"
+import React from "react"
 function Contact(){
     return(
         <>  
             <Navbar />
             <section id="Contact" class="jumbotron text-center ">
-                <h1 className="display-3">Maritime_Transport</h1>
+                <h1 className="display-3">Sport</h1>
                 <p>Vous accompagne partout en Sécurité Avec Confiance.</p>
             </section>
             <h1 class="localisation text-center ">Pour plus de <span>Renseignement</span></h1>
